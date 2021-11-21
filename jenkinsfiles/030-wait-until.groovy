@@ -9,7 +9,7 @@ pipeline {
           waitUntil {
             script {
               echo 'This stage will succeed immediately without waiting for a minute.'
-              return true
+              returnStatus: true
             }
           }
         }
@@ -36,7 +36,7 @@ pipeline {
           waitUntil {
             script {
               echo 'This stage will be executed again and again until 10sec is reached and then the stage will be marked as failure.'
-              return false
+              returnStatus: false
             }
           }
         }
