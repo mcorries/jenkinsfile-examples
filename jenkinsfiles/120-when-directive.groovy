@@ -6,7 +6,7 @@ pipeline {
       steps {
         script {
           RUN_STAGE_2 = true
-          FLAG_A = false
+          FLAG_A = true
           FLAG_B = false
         }
       }
