@@ -8,6 +8,7 @@ pipeline {
           RUN_STAGE_2 = true
           FLAG_A = true
           FLAG_B = false
+          echo 'Stage 1'
         }
       }
     }
