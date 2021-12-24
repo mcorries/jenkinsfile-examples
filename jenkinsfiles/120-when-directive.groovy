@@ -8,7 +8,7 @@ pipeline {
           RUN_STAGE_2 = true
           FLAG_A = true
           FLAG_B = false
-          echo '***||||||Stage 1||||||||***'
+          echo '***|||||| A newly edited Stage 1||||||||***'
         }
       }
     }
@@ -24,7 +24,7 @@ pipeline {
       }
       steps {
         script {
-          echo '***|||||||Stage 2||||||||||****'
+          echo '***||||||| A newly edited Stage 2||||||||||****'
         }
       }
     }
